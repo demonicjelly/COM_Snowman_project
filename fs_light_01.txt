@@ -1,0 +1,10 @@
+//This fragment shader is the basic fragment shader used for the light
+//in one of the tutorials
+
+#version 330 core
+
+out vec4 fragColor;
+
+void main() {
+  fragColor = vec4(1.0f);
+}
